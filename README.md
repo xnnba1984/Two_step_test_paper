@@ -50,7 +50,7 @@ Install required R package with
 install.packages(c("Rcpp","RcppArmadillo","ggplot2","dplyr","tidyr","viridisLite"))
 ```
 
-## Run the analyses.
+## Run the analyses
 
 Independent tests: ```grid_null.R```, ```grid_spike.R```, ```grid_mono.R```, ```grid_mix.R```.
 
@@ -64,7 +64,7 @@ Illustration of AKSA’s tail‑only loss: ```aksa_power_loss.R```.
 
 Each script constructs its own factorial grid (sample size, π₀, effect sizes), sets a reproducible seed, runs Monte Carlo replicates, and writes summaries/figures to disk.
 
-## Computation.
+## Computation
 The default settings (1,000 permutations × 1,000 replicates per grid point) can be time‑consuming. For a quick test, temporarily reduce the number of permutations/replicates near the top of each script, then restore defaults for final figures.
 
 
